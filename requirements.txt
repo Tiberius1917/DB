@@ -8,11 +8,12 @@ Django==4.0.3
 django-environ==0.8.1
 django-storages==1.12.3
 gunicorn==20.1.0
-heroku==0.1.4
+heroku3==5.1.4
 idna==3.3
 jmespath==0.10.0
 psycopg==3.0.9
 psycopg2-binary==2.9.3
+python-dateutil==2.8.1
 requests==2.27.1
 s3transfer==0.5.2
 six==1.16.0
