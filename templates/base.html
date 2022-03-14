@@ -23,7 +23,7 @@
             <link rel="stylesheet" href="{% static 'css/base.css' %}">
         {% endblock %}
 
-        <title>The Academy {% block extend_title %}{% endblock %}</title>
+        <title>Demand Better {% block extend_title %}{% endblock %}</title>
 
     </head>
     <body>
@@ -34,7 +34,7 @@
             <div class="row">
                 <!-- Main Logo -->
                 <div id="logo-main" class="col-8">
-                    <a id="main-logo-link" class="text-uppercase" href="">Demand <strong>Better</strong></a>
+                    <a id="main-logo-link" class="text-uppercase" href="{% url 'home' %}">Demand <strong>Better</strong></a>
                 </div>
                 <!-- Main Additional Links -->
                 <div class="col-4 g-0">
